@@ -449,7 +449,7 @@ const Home = (props: HomeProps) => {
         if (hours > 0) {
             label += hours + " hours "
         }
-        label += (minutes + 1) + " minutes left to MINT."
+        label += (minutes + 1) + " minutes left to Burn spl-token and recieve free nft."
         return (
             <div><h3>{label}</h3></div>
         );

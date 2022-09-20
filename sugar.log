@@ -1,0 +1,2 @@
+{"v":0,"name":"sugar","msg":"Lend me some sugar, I am your neighbor.","level":30,"hostname":"DESKTOP-6GM191Q","pid":7144,"time":"2022-09-20T10:24:38.491126Z","target":"sugar","line":116,"file":"src/main.rs"}
+{"v":0,"name":"sugar","msg":"Failed to read keypair file: ~/.config/solana/8waysfinal.json, The system cannot find the path specified. (os error 3)","level":50,"hostname":"DESKTOP-6GM191Q","pid":7144,"time":"2022-09-20T10:24:38.4932875Z","target":"sugar_cli::setup","line":53,"file":"src\\setup.rs"}
