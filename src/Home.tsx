@@ -661,7 +661,7 @@ const Home = (props: HomeProps) => {
                               <h3>You own {whitelistTokenBalance} WL
                                 mint {whitelistTokenBalance > 1 ? "tokens" : "token"}.</h3>}
                             {wallet && isActive && whitelistEnabled && (whitelistTokenBalance > 0) && !isBurnToken &&
-                              <h3>You are whitelisted and allowed to mint.</h3>}
+                              <h3>You are whitelisted and allowed to mint. Free Mints End In</h3>}
                             {wallet && isActive && endDate && Date.now() < endDate.getTime() &&
                               <Countdown
                                 date={toDate(candyMachine?.state?.endSettings?.number)}
